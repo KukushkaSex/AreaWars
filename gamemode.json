@@ -1,0 +1,29 @@
+{
+	"Name": "AreaWars",
+	"Description": "Захвати зону врага и убей игроков противника!",
+	"StartClientVersion": 334,
+	"MapFilter": {
+		"IsBlank": false,
+		"HasParcourEnd": false
+	},
+	"MapLists": [
+		{
+			"MapListId": 000,
+			"Name": "Карты для режима AreaWars",
+		}
+	],
+	"Parameters": {
+		"Bool": [
+			{
+				"Name": "NeedKilledSpinTeam",
+				"DisplayName": "Нужно убить всех врагов для победы",
+				"Default": true
+			},
+			{
+				"Name": "LoadingPlayers",
+				"DisplayName": "ожидание игроков",
+				"Default": true
+			}
+		]
+	}
+}
